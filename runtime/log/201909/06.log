@@ -1,0 +1,1372 @@
+---------------------------------------------------------------
+
+[2019-09-06T11:51:00+08:00] 127.0.0.1 GET www.admindemo.com/
+[运行时间：0.123538s] [吞吐率：8.09req/s] [内存消耗：2,261.52kb] [文件加载：157]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\index\view\index\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:02+08:00] 127.0.0.1 GET www.admindemo.com/admin
+[运行时间：0.121501s] [吞吐率：8.23req/s] [内存消耗：2,238.05kb] [文件加载：163]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2019-09-06T11:51:02+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/login.html
+[运行时间：0.194765s] [吞吐率：5.13req/s] [内存消耗：3,530.55kb] [文件加载：186]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\auth\login.html [ array (
+  0 => 'login_config',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002518s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.042497s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000625s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:03+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/captcha.html
+[运行时间：0.149331s] [吞吐率：6.70req/s] [内存消耗：3,265.68kb] [文件加载：173]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001245s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.012872s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/captcha' LIMIT 1 [ RunTime:0.009770s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:14+08:00] 127.0.0.1 POST www.admindemo.com/admin/auth/login.html
+[运行时间：0.146874s] [吞吐率：6.81req/s] [内存消耗：3,336.41kb] [文件加载：181]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQTtXBOkeEc8U4xWi',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.admindemo.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '602',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admindemo',
+  '__token__' => '14922b3d628302ea3d198020981d0d60',
+  'captcha' => 'xdcu',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001067s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.010679s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.034116s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `username` = 'admin' ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000596s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:28+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/login.html
+[运行时间：0.218568s] [吞吐率：4.58req/s] [内存消耗：3,403.68kb] [文件加载：184]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\auth\login.html [ array (
+  0 => 'login_config',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.083557s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000536s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:28+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/captcha.html
+[运行时间：0.170741s] [吞吐率：5.86req/s] [内存消耗：3,265.71kb] [文件加载：173]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000884s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.013192s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/captcha' LIMIT 1 [ RunTime:0.000499s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:36+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/captcha.html?7535
+[运行时间：0.125480s] [吞吐率：7.97req/s] [内存消耗：3,266.29kb] [文件加载：173]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  0 => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011298s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011291s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/captcha' LIMIT 1 [ RunTime:0.000623s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:37+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/captcha.html?7646
+[运行时间：0.118654s] [吞吐率：8.43req/s] [内存消耗：3,266.29kb] [文件加载：173]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  0 => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000980s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.017868s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/captcha' LIMIT 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:51:40+08:00] 127.0.0.1 POST www.admindemo.com/admin/auth/login.html
+[运行时间：0.133080s] [吞吐率：7.51req/s] [内存消耗：3,336.41kb] [文件加载：181]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryk8IbHaSLruzCaNeY',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.admindemo.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '602',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admindemo',
+  '__token__' => '3b35cf629d208a1a5a1d9d9db5f00073',
+  'captcha' => 'rcrc',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001126s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.013905s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.010939s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `username` = 'admin' ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000574s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:21+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/captcha.html?8356
+[运行时间：0.139241s] [吞吐率：7.18req/s] [内存消耗：3,266.02kb] [文件加载：173]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  0 => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001481s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.012922s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/captcha' LIMIT 1 [ RunTime:0.000599s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:24+08:00] 127.0.0.1 POST www.admindemo.com/admin/auth/login.html
+[运行时间：0.131325s] [吞吐率：7.61req/s] [内存消耗：3,330.93kb] [文件加载：180]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAZeuCn8TfuLuPbHH',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.admindemo.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '610',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'super-admin',
+  'password' => 'super-admin',
+  '__token__' => '3b35cf629d208a1a5a1d9d9db5f00073',
+  'captcha' => 'nwwh',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001025s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011884s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000592s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:28+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/login.html
+[运行时间：0.148306s] [吞吐率：6.74req/s] [内存消耗：3,403.68kb] [文件加载：184]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\auth\login.html [ array (
+  0 => 'login_config',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011514s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.017474s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000660s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:28+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/captcha.html
+[运行时间：0.196215s] [吞吐率：5.10req/s] [内存消耗：3,265.71kb] [文件加载：173]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001007s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.032687s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/captcha' LIMIT 1 [ RunTime:0.000721s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:38+08:00] 127.0.0.1 POST www.admindemo.com/admin/auth/login.html
+[运行时间：0.147948s] [吞吐率：6.76req/s] [内存消耗：3,330.59kb] [文件加载：180]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynNlpi9cxjjyuJ9jX',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.admindemo.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '610',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'super-admin',
+  'password' => 'super-admin',
+  '__token__' => '4aa9d61e089194b5e7ba9e9e5d0c427a',
+  'captcha' => 'ghzh',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010645s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.024955s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000544s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:40+08:00] 127.0.0.1 GET www.admindemo.com/admin/auth/captcha.html?5960
+[运行时间：0.120855s] [吞吐率：8.27req/s] [内存消耗：3,266.29kb] [文件加载：173]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  0 => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001011s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.016398s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/captcha' LIMIT 1 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:45+08:00] 127.0.0.1 POST www.admindemo.com/admin/auth/login.html
+[运行时间：0.382987s] [吞吐率：2.61req/s] [内存消耗：3,457.07kb] [文件加载：189]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeBDa4s7DXdFexI1f',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://www.admindemo.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '610',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'super-admin',
+  'password' => 'super-admin',
+  '__token__' => '4aa9d61e089194b5e7ba9e9e5d0c427a',
+  'captcha' => 'pmit',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010875s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011678s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/auth/login' LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.011083s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `username` = 'super-admin' ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.017070s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log` (`admin_user_id` , `name` , `url` , `log_method` , `log_ip` , `create_time`) VALUES (1 , '登录' , 'admin/auth/login' , 'POST' , '127.0.0.1' , 1567741965) [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log_data` [ RunTime:0.021978s ]
+[ sql ] [ SQL ] INSERT INTO `admin_log_data` (`data` , `admin_log_id`) VALUES ('21bb7143Ak2wAILKaFUYa9Huo4fURdaiOkQ8F4stiWZ6o6wk7Q6V8LplPTu1T8iKidzTJmugSVpBBom2DB8BnVz4qh8wBhmoEAmNetkC0bU9L8J8UTlxbZCN1BTBgDBASYlFjdDEmhHIAkMxEV178vIPi42cn65uO9pStkCqssSKiHcSM0ztwuTw3gn+uLxQk2au' , 1) [ RunTime:0.016335s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:45+08:00] 127.0.0.1 GET www.admindemo.com/admin/index/index.html
+[运行时间：0.408036s] [吞吐率：2.45req/s] [内存消耗：3,633.66kb] [文件加载：186]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\index\index.html [ array (
+  0 => 'admin_user_count',
+  1 => 'admin_role_count',
+  2 => 'admin_menu_count',
+  3 => 'admin_log_count',
+  4 => 'system_info',
+  5 => 'visitor_info',
+  6 => 'password_danger',
+  7 => 'user',
+  8 => 'welcome_info',
+  9 => 'debug',
+  10 => 'cookie_prefix',
+  11 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011434s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.010613s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011245s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/index/index' LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `admin_user`.`delete_time` = 0 [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.011241s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_role` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_menu` [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.011303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_log` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] select VERSION() as db_version [ RunTime:0.000730s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`name`,`url`,`icon`,`sort_id` FROM `admin_menu` WHERE  `is_show` = 1 ORDER BY `sort_id` ASC,`id` ASC [ RunTime:0.001086s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:52:50+08:00] 127.0.0.1 GET www.admindemo.com/admin/index/index.html
+[运行时间：0.395045s] [吞吐率：2.53req/s] [内存消耗：3,459.83kb] [文件加载：184]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/auth/login.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\index\index.html [ array (
+  0 => 'admin_user_count',
+  1 => 'admin_role_count',
+  2 => 'admin_menu_count',
+  3 => 'admin_log_count',
+  4 => 'system_info',
+  5 => 'visitor_info',
+  6 => 'password_danger',
+  7 => 'user',
+  8 => 'welcome_info',
+  9 => 'debug',
+  10 => 'cookie_prefix',
+  11 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001127s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.011028s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.010682s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/index/index' LIMIT 1 [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `admin_user`.`delete_time` = 0 [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.012224s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_role` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_menu` [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_log` [ RunTime:0.040622s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_log` [ RunTime:0.000452s ]
+[ sql ] [ SQL ] select VERSION() as db_version [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`name`,`url`,`icon`,`sort_id` FROM `admin_menu` WHERE  `is_show` = 1 ORDER BY `sort_id` ASC,`id` ASC [ RunTime:0.000573s ]
+---------------------------------------------------------------
+
+[2019-09-06T11:53:06+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_menu/index.html?_pjax=%23pjax-container
+[运行时间：0.174970s] [吞吐率：5.72req/s] [内存消耗：3,567.95kb] [文件加载：182]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/index/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_menu\index.html [ array (
+  0 => 'data',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011884s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.020202s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011132s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_menu/index' LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` ORDER BY `sort_id` ASC,`id` ASC [ RunTime:0.000486s ]
+---------------------------------------------------------------
+
+[2019-09-06T12:00:30+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_user/profile.html?_pjax=%23pjax-container
+[运行时间：0.217206s] [吞吐率：4.60req/s] [内存消耗：3,540.48kb] [文件加载：186]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/admin_menu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_user\profile.html [ array (
+  0 => 'debug',
+  1 => 'cookie_prefix',
+  2 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002025s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.011415s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011293s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_user/profile' LIMIT 1 [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.011344s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+
+[2019-09-06T12:02:47+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_menu/index.html?_pjax=%23pjax-container
+[运行时间：0.158261s] [吞吐率：6.32req/s] [内存消耗：3,410.19kb] [文件加载：180]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/admin_user/profile.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_menu\index.html [ array (
+  0 => 'data',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001167s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.031393s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011770s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_menu/index' LIMIT 1 [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` ORDER BY `sort_id` ASC,`id` ASC [ RunTime:0.000615s ]
+---------------------------------------------------------------
+
+[2019-09-06T14:18:09+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_user/profile.html?_pjax=%23pjax-container
+[运行时间：0.288497s] [吞吐率：3.47req/s] [内存消耗：3,388.70kb] [文件加载：184]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/admin_menu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_user\profile.html [ array (
+  0 => 'debug',
+  1 => 'cookie_prefix',
+  2 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002207s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.107747s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.001347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.021657s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_user/profile' LIMIT 1 [ RunTime:0.001089s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.011458s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000425s ]
+---------------------------------------------------------------
+
+[2019-09-06T14:18:11+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_menu/index.html?_pjax=%23pjax-container
+[运行时间：0.158488s] [吞吐率：6.31req/s] [内存消耗：3,410.19kb] [文件加载：180]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/admin_user/profile.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_menu\index.html [ array (
+  0 => 'data',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000963s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.036191s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.010789s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_menu/index' LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` ORDER BY `sort_id` ASC,`id` ASC [ RunTime:0.000553s ]
+---------------------------------------------------------------
+
+[2019-09-06T14:18:12+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_role/index.html?_pjax=%23pjax-container
+[运行时间：0.211249s] [吞吐率：4.73req/s] [内存消耗：3,683.55kb] [文件加载：187]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/admin_menu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_role\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010822s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.014535s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.013205s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_role/index' LIMIT 1 [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.010748s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_role` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_role` ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000401s ]
+---------------------------------------------------------------
+
+[2019-09-06T14:18:13+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_user/index.html?_pjax=%23pjax-container
+[运行时间：0.186492s] [吞吐率：5.36req/s] [内存消耗：3,681.72kb] [文件加载：187]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/admin_role/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_user\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.012696s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011615s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_user/index' LIMIT 1 [ RunTime:0.000531s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `admin_user` WHERE `admin_user`.`delete_time` = 0 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE `admin_user`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_role` [ RunTime:0.010881s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `admin_role` WHERE  `id` = 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:54:58+08:00] 127.0.0.1 GET www.admindemo.com/admin/admin_menu/index.html
+[运行时间：0.417447s] [吞吐率：2.40req/s] [内存消耗：3,632.49kb] [文件加载：181]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\admin_menu\index.html [ array (
+  0 => 'data',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002159s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.041096s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.028363s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/admin_menu/index' LIMIT 1 [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` ORDER BY `sort_id` ASC,`id` ASC [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `id`,`parent_id`,`name`,`url`,`icon`,`sort_id` FROM `admin_menu` WHERE  `is_show` = 1 ORDER BY `sort_id` ASC,`id` ASC [ RunTime:0.001528s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:04+08:00] 127.0.0.1 GET www.admindemo.com/admin/generate/index.html?_pjax=%23pjax-container
+[运行时间：0.192175s] [吞吐率：5.20req/s] [内存消耗：3,476.89kb] [文件加载：182]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/admin_menu/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\generate\index.html [ array (
+  0 => 'debug',
+  1 => 'cookie_prefix',
+  2 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002390s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.032788s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011182s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/generate/index' LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:06+08:00] 127.0.0.1 GET www.admindemo.com/admin/staff/index.html?_pjax=%23pjax-container
+[运行时间：0.204120s] [吞吐率：4.90req/s] [内存消耗：3,793.65kb] [文件加载：193]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/generate/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\staff\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000884s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.028820s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011142s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/staff/index' LIMIT 1 [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `staff` [ RunTime:0.032409s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `staff` WHERE `staff`.`delete_time` = 0 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `staff` WHERE `staff`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:07+08:00] 127.0.0.1 GET www.admindemo.com/admin/position/index.html?_pjax=%23pjax-container
+[运行时间：0.186067s] [吞吐率：5.37req/s] [内存消耗：3,671.59kb] [文件加载：188]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/staff/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\position\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001028s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.020990s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011817s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/position/index' LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `position` [ RunTime:0.012290s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `position` WHERE `position`.`delete_time` = 0 [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `position` WHERE `position`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:09+08:00] 127.0.0.1 GET www.admindemo.com/admin/demo/email.html?_pjax=%23pjax-container
+[运行时间：0.172779s] [吞吐率：5.79req/s] [内存消耗：3,501.99kb] [文件加载：183]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/position/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\demo\email.html [ array (
+  0 => 'debug',
+  1 => 'cookie_prefix',
+  2 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.037823s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.010575s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/demo/email' LIMIT 1 [ RunTime:0.000463s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:11+08:00] 127.0.0.1 GET www.admindemo.com/admin/brand/index.html?_pjax=%23pjax-container
+[运行时间：0.159012s] [吞吐率：6.29req/s] [内存消耗：3,692.25kb] [文件加载：188]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/demo/email.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\brand\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001106s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.012155s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011348s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/brand/index' LIMIT 1 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.011311s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `brand` WHERE `brand`.`delete_time` = 0 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE `brand`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:12+08:00] 127.0.0.1 GET www.admindemo.com/admin/goods/index.html?_pjax=%23pjax-container
+[运行时间：0.222858s] [吞吐率：4.49req/s] [内存消耗：3,806.52kb] [文件加载：193]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/brand/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\goods\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011429s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.010884s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011128s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/goods/index' LIMIT 1 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods` [ RunTime:0.012424s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `goods` WHERE `goods`.`delete_time` = 0 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `goods` WHERE `goods`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_category` [ RunTime:0.011689s ]
+[ sql ] [ SQL ] SELECT * FROM `goods_category` WHERE (  `id` IN (17,16) ) AND `goods_category`.`delete_time` = 0 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `brand` [ RunTime:0.011926s ]
+[ sql ] [ SQL ] SELECT * FROM `brand` WHERE (  `id` IN (7,4) ) AND `brand`.`delete_time` = 0 [ RunTime:0.000539s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:14+08:00] 127.0.0.1 GET www.admindemo.com/admin/goods_category/index.html?_pjax=%23pjax-container
+[运行时间：0.169637s] [吞吐率：5.89req/s] [内存消耗：3,685.63kb] [文件加载：184]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/goods/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\goods_category\index.html [ array (
+  0 => 'data',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010912s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.013529s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011782s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/goods_category/index' LIMIT 1 [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `goods_category` [ RunTime:0.012550s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`parent_id` FROM `goods_category` WHERE `goods_category`.`delete_time` = 0 [ RunTime:0.000556s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:16+08:00] 127.0.0.1 GET www.admindemo.com/admin/article/index.html?_pjax=%23pjax-container
+[运行时间：0.254688s] [吞吐率：3.93req/s] [内存消耗：3,988.68kb] [文件加载：197]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/goods_category/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\article\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.011663s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.021824s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/article/index' LIMIT 1 [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.011386s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article` WHERE `article`.`delete_time` = 0 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE `article`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011080s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` IN (2,1,4) ) AND `user`.`delete_time` = 0 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_category` [ RunTime:0.010863s ]
+[ sql ] [ SQL ] SELECT * FROM `article_category` WHERE (  `id` IN (13,17,15,5,16,12,11,19,9) ) AND `article_category`.`delete_time` = 0 [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_tag` [ RunTime:0.011075s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tag` [ RunTime:0.021236s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 30 ) AND `tag`.`delete_time` = 0 [ RunTime:0.006261s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 29 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 28 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 27 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 26 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 25 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 24 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 23 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 22 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `tag`.*,`pivot`.`id` AS `pivot__id`,`pivot`.`article_id` AS `pivot__article_id`,`pivot`.`tag_id` AS `pivot__tag_id` FROM `tag` INNER JOIN `article_tag` `pivot` ON `pivot`.`tag_id`=`tag`.`id` WHERE (  `pivot`.`article_id` = 21 ) AND `tag`.`delete_time` = 0 [ RunTime:0.000324s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:17+08:00] 127.0.0.1 GET www.admindemo.com/admin/article_category/index.html?_pjax=%23pjax-container
+[运行时间：0.178527s] [吞吐率：5.60req/s] [内存消耗：3,586.34kb] [文件加载：184]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/article/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\article_category\index.html [ array (
+  0 => 'data',
+  1 => 'debug',
+  2 => 'cookie_prefix',
+  3 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.013622s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.010800s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/article_category/index' LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_category` [ RunTime:0.012202s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`parent_id` FROM `article_category` WHERE `article_category`.`delete_time` = 0 [ RunTime:0.000434s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:18+08:00] 127.0.0.1 GET www.admindemo.com/admin/tag/index.html?_pjax=%23pjax-container
+[运行时间：0.155361s] [吞吐率：6.44req/s] [内存消耗：3,671.44kb] [文件加载：188]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/article_category/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\tag\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.011817s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011346s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/tag/index' LIMIT 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tag` [ RunTime:0.011378s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tag` WHERE `tag`.`delete_time` = 0 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `tag` WHERE `tag`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000316s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:20+08:00] 127.0.0.1 GET www.admindemo.com/admin/user/index.html?_pjax=%23pjax-container
+[运行时间：0.272019s] [吞吐率：3.68req/s] [内存消耗：3,830.61kb] [文件加载：192]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/tag/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\user\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.056595s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.010592s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/user/index' LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010883s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE `user`.`delete_time` = 0 [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE `user`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_level` [ RunTime:0.042443s ]
+[ sql ] [ SQL ] SELECT * FROM `user_level` WHERE (  `id` IN (1,4,3,2) ) AND `user_level`.`delete_time` = 0 [ RunTime:0.000500s ]
+---------------------------------------------------------------
+
+[2019-09-06T16:55:21+08:00] 127.0.0.1 GET www.admindemo.com/admin/user_level/index.html?_pjax=%23pjax-container
+[运行时间：0.161565s] [吞吐率：6.19req/s] [内存消耗：3,706.09kb] [文件加载：188]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=mds0a433a7jus2jhqlefmb83o1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.admindemo.com/admin/user/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-pjax-container' => '#pjax-container',
+  'x-pjax' => 'true',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.admindemo.com',
+)
+[ info ] [ PARAM ] array (
+  '_pjax' => '#pjax-container',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\AdminDemo\application\admin\view\user_level\index.html [ array (
+  0 => '_pjax',
+  1 => 'data',
+  2 => 'page',
+  3 => 'total',
+  4 => 'debug',
+  5 => 'cookie_prefix',
+  6 => 'admin',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001008s ] mysql:host=127.0.0.1;port=3306;dbname=admin_demo;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_user` [ RunTime:0.011124s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_user` WHERE (  `id` = 1 ) AND `admin_user`.`delete_time` = 0 LIMIT 1 [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin_menu` [ RunTime:0.011522s ]
+[ sql ] [ SQL ] SELECT * FROM `admin_menu` WHERE  `url` = 'admin/user_level/index' LIMIT 1 [ RunTime:0.000469s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_level` [ RunTime:0.011487s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user_level` WHERE `user_level`.`delete_time` = 0 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `user_level` WHERE `user_level`.`delete_time` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000362s ]
